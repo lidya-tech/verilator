@@ -120,7 +120,7 @@ private:
 
     // CONSTANTS
     enum MiscConsts {
-        DETECTARRAY_MAX_INDEXES = 256   // How many indexes before error
+        DETECTARRAY_MAX_INDEXES = 1024   // How many indexes before error
         // Ok to increase this, but may result in much slower model
     };
 
